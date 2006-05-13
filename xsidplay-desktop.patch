@@ -1,0 +1,14 @@
+--- xsidplay.desktop	2004-10-14 02:39:47.000000000 +0200
++++ xsidplay.desktop	2006-05-13 19:35:59.638679750 +0200
+@@ -2,8 +2,10 @@
+ Encoding=UTF-8
+ Name=XSIDPLAY
+ Comment=SID Music Player
++Comment[pl]=Odtwarzacz muzyki w formacie SID
+ Exec=xsidplay
+ Terminal=false
+ Type=Application
+ Icon=xsidplay.xpm
+-Categories=Application;AudioVideo;
++Categories=AudioVideo;Player;
++# vi: encoding=utf-8
