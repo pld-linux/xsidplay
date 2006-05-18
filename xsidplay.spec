@@ -13,8 +13,6 @@ BuildRequires:	autoconf
 BuildRequires:	libsidplay-devel >= 1.36.52
 BuildRequires:	libstdc++-devel
 BuildRequires:	qt-devel
-Requires:	libsidplay
-Requires:	qt
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
