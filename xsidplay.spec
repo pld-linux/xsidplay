@@ -1,5 +1,5 @@
 Summary:	SID music player for X11
-Summary(pl):	Odtwarzacz muzyki SID dla X11
+Summary(pl.UTF-8):   Odtwarzacz muzyki SID dla X11
 Name:		xsidplay
 Version:	1.6.5.2
 Release:	1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a graphical frontend to the SIDPLAY library - Commodore 64
 music player and SID chip emulator.
 
-%description -l pl
-Graficzna nak≥adka do biblioteki SIDPLAY - odtwarzacza muzyki z
-Commodore 64 i emulatora uk≥adu dºwiÍkowego SID.
+%description -l pl.UTF-8
+Graficzna nak≈Çadka do biblioteki SIDPLAY - odtwarzacza muzyki z
+Commodore 64 i emulatora uk≈Çadu d≈∫wiƒôkowego SID.
 
 %prep
 %setup -q
