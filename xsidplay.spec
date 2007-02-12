@@ -1,5 +1,5 @@
 Summary:	SID music player for X11
-Summary(pl.UTF-8):   Odtwarzacz muzyki SID dla X11
+Summary(pl.UTF-8):	Odtwarzacz muzyki SID dla X11
 Name:		xsidplay
 Version:	1.6.5.2
 Release:	1
