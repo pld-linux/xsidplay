@@ -1,0 +1,11 @@
+--- xsidplay-1.6.5.2/src/HistoryDialog.h.orig	2008-03-11 17:22:57.000000000 +0100
++++ xsidplay-1.6.5.2/src/HistoryDialog.h	2008-03-11 17:22:50.000000000 +0100
+@@ -24,6 +24,8 @@
+ #include "HistoryItem.h"
+ #include "HistoryFile.h"
+ 
++class HistoryFile;
++
+ class HistoryDialog : public HistoryDialogData
+ {
+     Q_OBJECT
