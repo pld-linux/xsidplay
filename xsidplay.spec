@@ -2,12 +2,13 @@ Summary:	SID music player for X11
 Summary(pl.UTF-8):	Odtwarzacz muzyki SID dla X11
 Name:		xsidplay
 Version:	1.6.5.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://www.geocities.com/siliconvalley/lakes/5147/sidplay/packages/%{name}-%{version}.tgz
 # Source0-md5:	68669cf99904a7384a65ded5fcdd3c97
 Patch0:		%{name}-desktop.patch
+Patch1:		%{name}-gcc4.patch
 URL:		http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html
 BuildRequires:	autoconf
 BuildRequires:	libsidplay-devel >= 1.36.52
@@ -26,6 +27,7 @@ Commodore 64 i emulatora układu dźwiękowego SID.
 %prep
 %setup -q
 %patch0 -p0
+%patch1 -p1
 
 %build
 %{__autoconf}
